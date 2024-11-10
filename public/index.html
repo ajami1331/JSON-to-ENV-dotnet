@@ -24,7 +24,10 @@
       const prefix = '';
       flatten(input, output, prefix);
       console.log(output)
-      document.getElementById('output-area').value = JSON.stringify(output);
+      document.getElementById('output-area').value = "";
+      for (const key in output) {
+        document.getElementById('output-area').value += key + "=" + output[key] + "\n";
+      }
     }
 
     function isValue(v) {

@@ -31,12 +31,13 @@ Example:
 ```
 
 ```
-Logging__LogLevel__Default=Debug,
-Logging__LogLevel__System=Information,
-Logging__LogLevel__Microsoft=Information,
-Serilog__Using__0=Serilog.Sinks.Seq,
-Serilog__Using__1=Serilog.Sinks.Console,
-Serilog__WriteTo__0__Name=Console,
-Serilog__WriteTo__1__Name=Seq,
+Logging__LogLevel__Default=Debug
+Logging__LogLevel__System=Information
+Logging__LogLevel__Microsoft=Information
+Serilog__Using__0=Serilog.Sinks.Seq
+Serilog__Using__1=Serilog.Sinks.Console
+Serilog__WriteTo__0__Name=Console
+Serilog__WriteTo__1__Name=Seq
 Serilog__WriteTo__1__Args__serverUrl=http://localhost:5341/
+
 ```

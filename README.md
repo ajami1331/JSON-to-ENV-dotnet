@@ -4,7 +4,7 @@
 
 Try it out: https://ajami1331.github.io/JSON-to-ENV-dotnet/
 
-Will flatten with ASP.NET json seperator `:`
+Will flatten with ASP.NET env seperator `__`
 
 Example:
 
